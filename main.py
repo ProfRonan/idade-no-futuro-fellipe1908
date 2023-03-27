@@ -1,0 +1,5 @@
+name = str(input("Digite Seu Nome: "))
+Idade = int(input("Digite Sua Idade: "))
+AA = int(input("Digite o Seu Ano Atual: "))
+AP = int(input("Digite o Ano No Qual Você Quer Saber Sua Idade Futura: "))
+print(name,"no ano de", AP, "Você Terá",AP - AA + Idade)
